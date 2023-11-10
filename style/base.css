@@ -2,25 +2,22 @@ body {
 
 }
 
-header ul {
-    padding-left: 0;
-}
-
 header li {
     background-color: blue;
-    border: 2px dotted blue;
     display: inline;
-    padding: 1cm;
-}
-
-header li:hover {
-    background-color: maroon;
 }
 
 header a {
+    background-color: blue;
     color: white;
-
+    padding: 1cm;
+    text-decoration: none;
 }
+
+header a:hover {
+    background-color: maroon;
+}
+
 
 section a {
     border: 2px solid green;
