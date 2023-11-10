@@ -1,9 +1,4 @@
-body {
-
-}
-
 header li {
-    background-color: blue;
     display: inline;
 }
 
@@ -17,7 +12,6 @@ header a {
 header a:hover {
     background-color: maroon;
 }
-
 
 section a {
     border: 2px solid green;
