@@ -1,0 +1,30 @@
+
+
+
+header li {
+    display: inline;
+}
+
+header a {
+    background-color: darkblue;
+    color: white;
+    padding: 5mm;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: orange;
+}
+
+section#about p::first-letter {
+    background-color: red;
+    color: white;
+    font-size: 2cm;
+    font-weight: bold;
+    padding: 5px;
+}
+
+footer {
+    margin-top: 0.5cm;
+    border-top: 2px dotted black;
+}
