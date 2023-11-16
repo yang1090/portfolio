@@ -6,6 +6,7 @@ body {
     background-size: cover
 }
 
+/* set up page margin for headings and paragraph */
 header figure,h1 {
     margin-top: 2rem;
     margin-left: 20rem;
@@ -109,16 +110,18 @@ section#work figure {
     padding-top: 3rem;
 }
 
+/* images are set to display in a row */
 section#work .row {
     display: flex;
 }
-  
+
 section#work .column {
     flex: 33.33%;
     padding: 0.3rem;
     transition: 1s ease;
 }
 
+/* adding special effect for the image when hover */
 section#work .column img:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
