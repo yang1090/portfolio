@@ -29,6 +29,8 @@ header h2 {
 
 header ul {
     margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-bottom: 2rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
@@ -40,7 +42,6 @@ header ul {
 
 header a {
     color: black;
-    padding: 1rem;
     text-decoration: none;
 }
 
@@ -63,8 +64,8 @@ section h2 {
 
 section h3 {
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-bottom: 2rem;
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -75,14 +76,14 @@ section h3 {
 
 section p {
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-bottom: 2rem;
     color: black;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 section#work figure {
