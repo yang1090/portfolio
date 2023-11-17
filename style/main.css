@@ -44,6 +44,10 @@ header ul {
     padding: 0;
 }
 
+header a {
+    padding: 1rem;
+}
+
 /* responsive set up for navigation */
 @media only screen and (max-width: 600px) {
     header ul {
