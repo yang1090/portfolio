@@ -185,6 +185,18 @@ section#work figcaption {
     text-align: center;
 }
 
+/* responsive image layout in mobile */
+@media only screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    figcaption {
+        padding-bottom: 2rem;
+    }
+}
+
 section#contact {
     background-color: rgb(31, 69, 110);
 }
