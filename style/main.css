@@ -44,6 +44,7 @@ header ul {
     padding: 0;
 }
 
+/* responsive set up for navigation */
 @media only screen and (max-width: 600px) {
     header ul {
     padding-top: 3rem;
@@ -71,6 +72,7 @@ header a:hover {
     font-weight: bold;
 }
 
+/* Properties for headings and paragraph */
 section h2 {
     margin-top: 10rem;
     margin-bottom: 2rem;
@@ -119,6 +121,7 @@ section#about p {
     margin-bottom: 5rem;
 }
 
+/* Properties for headings and paragraph in responsive mode */
 @media only screen and (max-width: 600px) {
 section#about h2 {
     margin-top: 5rem;
@@ -146,23 +149,23 @@ section#contact p {
 }
 }
 
+/* images set up */
 section#work figure {
     margin: 0;
     padding-top: 3rem;
 }
 
-/* images are set to display in a row */
 section#work .row {
     display: flex;
 }
 
+/* adding special effect for the image when hover */
 section#work .column {
     flex: 33.33%;
     padding: 0.3rem;
     transition: 1s ease;
 }
 
-/* adding special effect for the image when hover */
 section#work .column img:hover {
     transform: scale(1.2);
     transform: scale(1.2);
@@ -185,7 +188,6 @@ section#contact {
 section#contact h2 {
     color: white;
     padding-top: 5rem;
-
 }
 
 section#contact p {
@@ -239,6 +241,7 @@ section#back a {
     text-decoration: underline;
 }
 
+/* property for footer */
 footer {
     padding-bottom: 2rem;
     font-family: 'Open Sans', sans-serif;
