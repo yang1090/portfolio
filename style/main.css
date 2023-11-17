@@ -1,9 +1,16 @@
-
-
 body {
     font-size: 1.2rem;
     background-image: url("background.jpg");
-    background-size: cover
+    background-size: cover;
+    margin: 0 auto;
+  }
+  
+/* set up responsive background */
+@media only screen and (max-width: 600px) {
+    body {
+    background-image: url("background_mobile.jpg");
+    background-size: cover;
+    }
 }
 
 /* set up page margin for headings and paragraph */
@@ -28,16 +35,29 @@ header h2 {
 }
 
 header ul {
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding-left: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    header ul {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    width: 15ch;
+    margin: 0 auto;
+    }
+
+    header li {
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    }
 }
 
 header a {
@@ -64,8 +84,7 @@ section h2 {
 
 section h3 {
     margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
     margin-bottom: 2rem;
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -76,14 +95,55 @@ section h3 {
 
 section p {
     margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-bottom: 2rem;
     color: black;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: left;
+}
+
+section#about {
+    border-top: 3px inset rgb(171, 203, 237);
+    border-bottom: 3px inset rgb(31, 69, 110);
+    border-radius: 3rem;
+    margin-top: 5rem;
+}
+
+section#about h2 {
+    margin-top: 5rem;
+}
+section#about p {
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+section#about h2 {
+    margin-top: 5rem;
+}
+    section#about p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 18px;
+    text-align: left;
+}
+section#work h3 {
+    width: 23ch;
+    margin: 0 auto;
+}
+section#work p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 18px;
+    text-align: left;
+}
+section#contact p {
+    font-size: 1.2rem;
+    margin: auto;
+    padding-bottom: 2rem;
+}
 }
 
 section#work figure {
@@ -116,7 +176,6 @@ section#work figcaption {
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 section#contact {
@@ -126,11 +185,13 @@ section#contact {
 section#contact h2 {
     color: white;
     padding-top: 5rem;
+
 }
 
 section#contact p {
     color: white;
     text-align: center;
+    margin: 3rem;
 }
 
 section#contact table {
@@ -141,8 +202,7 @@ section#contact table {
     table-layout: fixed;
     color: white;
     width:60%; 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
   
 section#contact table th {
@@ -162,12 +222,13 @@ section#contact table td a:hover {
     font-weight: bold
 }
 
-section#back {
+section#back h3 {
     padding-top: 4rem;
     padding-bottom: 1rem;
     background-color: rgb(31, 69, 110);
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 section#back a {
