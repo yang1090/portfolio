@@ -1,30 +1,52 @@
-console.log('Hello, World!');
+console.log('Welcome to my portfolio');
 
-const DOB = 'Feb 27 1995'
-// DOB = 'Mar 15 1996'
-console.log(DOB);
+// Auto date in copyright footer
+document.getElementById('year').innerHTML = new Date().getFullYear();
+ 
+// alert button - Back to Top
+var btnAlert = document.getElementById('btn-alert');
+    btnAlert.addEventListener('click', function() {
+    alert('Please contact me first before go back :)');
+})
 
-let firstName = "Sam"; // ES6 syntax
-firstName = "Yang";
-console.log(firstName);
-console.log(typeof firstName);
+// hover button
+document.getElementById('btn-alert').onmouseover = () => {
+    document.getElementById('btn-alert').innerText = "Contact Me Now";
+};
+        
+document.getElementById('btn-alert').onmouseleave = () => {
+    document.getElementById('btn-alert').innerText = "Back to Top";
+};
 
-var age = 30; // ES5 syntax
-// age = Number('72') + Number('11');
-age = 72 + 11;
-age = 45.8772;
-console.log(age);
-console.log(typeof age);
+// incrementing Button - Click for Like
+var btnCounter = document.getElementById("btn-counter");
+var txtCounter = document.getElementById("txt-counter");
 
-let friday = true;
-friday = false;
-console.log(friday);
+var counter = 1;
 
-let fruits = new Array('apple', 'kiwi', 'orange', 'dragonfruit', 'grape');
-fruits.push('pineapple');
-fruits.push('kale'); // add item to array
-console.log(fruits);
-fruits.pop(); // remove last item from array
-console.log(fruits);
-let slicedOrange = fruits[2].split('');
-console.log(slicedOrange);
+btnCounter.addEventListener("click", function() {
+
+counter++;
+
+txtCounter.textContent = "Number: " + counter;
+
+if (counter % 2 === 0) {
+    txtCounter.style.color = "blue";
+} else {
+    txtCounter.style.color = "red";
+}
+});
+
+// for loops
+var numbersList = document.getElementById("numbers");
+
+for (let i = 1; i <= 100; i = i + 1) {
+
+var listItem = document.createElement("li");
+
+listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
+
+listItem.classList.add(i % 2 === 0 ? 'even' : 'odd');
+
+numbersList.appendChild(listItem);
+}

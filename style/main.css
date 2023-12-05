@@ -240,7 +240,7 @@ section#contact table td a:hover {
     font-weight: bold
 }
 
-section#back h3 {
+/* section#back h3 {
     padding-top: 4rem;
     padding-bottom: 1rem;
     background-color: rgb(31, 69, 110);
@@ -255,13 +255,58 @@ section#back a {
     color: white;
     font-size: 1rem;
     text-decoration: underline;
+} */
+
+button#btn-alert {
+    padding: 1rem;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    border-radius: 3rem;
+    color: rgb(31, 69, 110);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 /* property for footer */
 footer {
+    padding-top: 2rem;
     padding-bottom: 2rem;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(31, 69, 110);
     color: white;
     text-align: center;
+}
+
+.even {
+    color: blue;
+}
+
+.odd {
+    color: red;
+}
+
+button#btn-counter {
+    padding: 1rem;
+    background-color: rgb(31, 69, 110);
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    border-color: white;
+    border-radius: 3rem;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+p#txt-counter {
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }

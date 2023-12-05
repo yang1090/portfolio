@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yang Portfolio</title>
     <link href="style/main.css" rel="stylesheet"/>
-    <script src="JavaScript/main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="JavaScript/main.js"></script>
 </head>
     
 <body>
@@ -51,6 +51,10 @@
                   </div>
                 </div>
             </figure>
+            <!-- incrementing button -->
+            <button id="btn-counter">Click for Like</button>
+            <p id="txt-counter">Number: 1</p>
+            <ol id="numbers"></ol>
         </section>
 
         <section id="contact">
@@ -66,20 +70,21 @@
                 <td><a href="https://www.linkedin.com/in/yang1090">Yang1090</a></td>
               </tr>
             </table>
+
+            <!-- alert button -->
+            <button id="btn-alert">Back to Top</button>
         </section>
 
-        <section id="back">
+        <!-- back to top function (hide tempry)
+            <section id="back">
             <h3><a href="#header">> Back to Top</a></h3>
-        </section>
+        </section>-->
     </main>
 
     <footer>
-        &copy; Yang 2023
-    </footer>  
+        &copy; Yang <span id="year"></span>
+    </footer>
 
-    <script>
-        // alert('Hello, again!');
-    </script>
 
     <!-- This is my very first HTML project :) -->
 
