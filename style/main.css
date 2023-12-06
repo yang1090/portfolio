@@ -3,6 +3,7 @@ body {
     background-image: url("background.jpg");
     background-size: cover;
     margin: 0 auto;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
   }
   
 /* set up responsive background */
