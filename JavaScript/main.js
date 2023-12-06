@@ -18,7 +18,7 @@ document.getElementById('btn-alert').onmouseleave = () => {
     document.getElementById('btn-alert').innerText = "Back to Top";
 };
 
-// incrementing Button - Click for Like
+// incrementing button - Click for Like
 var btnCounter = document.getElementById("btn-counter");
 var txtCounter = document.getElementById("txt-counter");
 

@@ -280,6 +280,7 @@ footer {
     text-align: center;
 }
 
+/* property for even/odd numbers */
 .even {
     color: blue;
 }
@@ -288,6 +289,7 @@ footer {
     color: red;
 }
 
+/* incrementing button style */
 button#btn-counter {
     padding: 1rem;
     background-color: rgb(31, 69, 110);
