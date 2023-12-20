@@ -37,8 +37,7 @@ if (counter % 2 === 0) {
 }
 });
 
-// for loops
-var numbersList = document.getElementById("numbers");
+// for loops var numbersList = document.getElementById("numbers");
 
 for (let i = 1; i <= 100; i = i + 1) {
 
